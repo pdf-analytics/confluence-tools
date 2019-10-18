@@ -1,14 +1,22 @@
 # Confluence Tools Playground
 
-## Instructions
+These scripts were tested using Python 3.7.
 
+## Instructions
 
 1. In the Confluence Site (https://demo-site.atlassian.net), create a page, and add the 
    ‘QC - Read and Understood’ Macro for that page.
 
 2. Clone the https://github.com/pdf-analytics/confluence-tools project locally
 
-3. Create a **credentials.ini** file within the confluence-tools/qc_rnu directory
+3. Go to the qc_rnu directory and install the required pip libraries
+
+```
+pip install -r requirements.txt
+
+```
+
+4. Create a **credentials.ini** file within the confluence-tools/qc_rnu directory
 
 ```
 [CONFLUENCE]
@@ -17,7 +25,7 @@ username=email@address.com
 password=token
 ```
 
-4. Open a python console and execute the following :
+5. Open a python console and execute the following :
 
 ```
 import ConfluencePlayground 
