@@ -1,4 +1,4 @@
-# Confluence Tools Playground - Beta Version
+# Confluence Tools Playground
 
 ## Instructions
 
